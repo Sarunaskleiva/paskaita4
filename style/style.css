@@ -1,0 +1,95 @@
+body{
+    text-align: center;
+    font-family:'Indie+Flower', monospace;
+}
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.container{
+    max-width: 900px;
+    width:90%;
+    margin: auto;
+}
+
+section.landing-page{
+    height: 100vh;
+    background-image: url(../img/01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+hearder{
+    max-height: 900px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+section.landing-page .logo{
+    float: left;
+}
+
+section.landing-page .nav{
+    float: right;
+}
+
+section.landing-page li{
+    display: inline-block;
+    margin: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+section.landing-page .fa{
+    float: right;
+    display: none;
+}
+
+section.info h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+section.info {
+    margin-top: 30px;
+    line-height: 20px;
+    font-size: 20px;
+    margin: 40px auto;
+    width: 60%;
+}
+
+section.bike-row1{
+    font-size: 0px;
+}
+
+section.bike-row1 .left-side{
+    width: 66.66%;
+display: inline-block;
+}
+
+section.bike-row1 .right-side{
+    width: 33.33%;
+display: inline-block;
+}
+
+section.bike-row1 .right-side img{
+    width: 100%;
+}
+
+section.bike-row1 .right-side h3{
+    font-size: 30px;
+    margin-bottom: 40px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+section.bike-row1 .right-side p{
+    font-size: 16px;
+    margin: 40px auto;
+    line-height: 22px;
+    width: 70%;
+}

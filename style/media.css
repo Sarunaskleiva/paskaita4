@@ -1,0 +1,34 @@
+@media(max-width: 900px) {
+    section.bike-row1 .right-side p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media(max-width: 800px) {
+    section.landing-page .fa-bars {
+        display: block;
+        margin-top: 10px;
+    }
+    section.landing-page ul {
+        display: none;
+    }
+
+    section.bike-row1 .right-side p {
+        font-size: 8px;
+        line-height: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 700px) {
+    section.bike-row1 .left-side {
+        width: 100%;
+    }
+
+    section.bike-row1 .right-side {
+        width: 100%;
+    }
+}
